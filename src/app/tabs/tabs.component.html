@@ -4,10 +4,10 @@
       <a (click)="onChoose('all')" style="cursor: pointer" href="#">All</a>
     </li>
     <li role="presentation" [ngClass]="{active: chosenList === 'light'}">
-      <a (click)="onChoose('light')" style="cursor: pointer" href="#">Light</a>
+      <a (click)="onChoose('light')" style="cursor: pointer" href="#">The Light Side</a>
     </li>
     <li role="presentation" [ngClass]="{active: chosenList === 'dark'}">
-      <a (click)="onChoose('dark')" style="cursor: pointer" href="#">Dark</a>
+      <a (click)="onChoose('dark')" style="cursor: pointer" href="#">The Dark Side</a>
     </li>
   </ul>
   <app-list [characters]="getCharacters()"></app-list>
